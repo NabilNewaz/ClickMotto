@@ -77,3 +77,139 @@
     padding: 6px 20px;
     border-radius: 5px;
 }
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.social-icon {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.dropdown-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8%;
+    right: 16%;
+    color: #ffffff;
+    background-color: #111111;
+    z-index: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.drop-arrow {
+    position: absolute;
+    top: 7%;
+    right: 21%;
+    transform: rotate(180deg)
+}
+
+.drop-link {
+    color: #929292;
+    padding-bottom: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-link {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .mobile-toggle {
+        display: block;
+    }
+
+    .dropdown-nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 8%;
+        right: 1%;
+        color: #ffffff;
+        background-color: #111111;
+        z-index: 1;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+
+    .drop-arrow {
+        position: absolute;
+        top: 7%;
+        right: 2%;
+        transform: rotate(180deg)
+    }
+
+    .social-icon {
+        display: flex;
+        gap: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .mobile-toggle {
+        display: none;
+    }
+
+    .submit-button {
+        display: none;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .join-button {
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nav-link {
+        display: block;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 96%;
+        padding: 15px;
+    }
+
+    .mobile-toggle {
+        display: none;
+    }
+}

@@ -4,10 +4,11 @@ import PhotoOfDay from './PhotoOfDay';
 
 const Home = () => {
     const [media, setMedia] = useState([]);
+    const [type, setType] = useState([]);
     return (
         <div>
             <PhotoOfDay setMedia={setMedia} ></PhotoOfDay>
-            <Gallery media={media} setMedia={setMedia} ></Gallery>
+            <Gallery media={media} setMedia={setMedia} type={type} setType={setType} ></Gallery>
         </div>
     );
 };
