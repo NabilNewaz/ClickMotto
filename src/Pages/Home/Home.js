@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Gallery from './Gallery';
 import PhotoOfDay from './PhotoOfDay';
 
 const Home = () => {
+    const [media, setMedia] = useState([]);
     return (
         <div>
-            <PhotoOfDay></PhotoOfDay>
-            <Gallery></Gallery>
+            <PhotoOfDay setMedia={setMedia} ></PhotoOfDay>
+            <Gallery media={media} setMedia={setMedia} ></Gallery>
         </div>
     );
 };

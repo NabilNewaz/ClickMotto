@@ -4,7 +4,7 @@ import axios from 'axios';
 import { apiKey } from '../../Config/Config';
 import SearchBar from './SearchBar';
 
-const PhotoOfDay = () => {
+const PhotoOfDay = ({ setMedia }) => {
     const [photoData, setPhotoData] = useState([]);
     const [photo, setPhoto] = useState([]);
 
@@ -28,7 +28,7 @@ const PhotoOfDay = () => {
                 <div className='banner-text'>
                     <p>Your local source of high quality images and videos directly from their creators</p>
                 </div>
-                <SearchBar></SearchBar>
+                <SearchBar setMedia={setMedia}></SearchBar>
                 <p className='banner-photographer-text'>Photo of the Day <span className='photographer-by-text'>By </span>{photoData.photographer}</p>
             </div>
         </div>
