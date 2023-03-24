@@ -1,0 +1,22 @@
+.search-bar {
+    position: absolute;
+    bottom: 42%;
+    left: 25%;
+}
+
+.search-bar input {
+    width: 850px;
+    height: 50px;
+    border-radius: 30px;
+    background: #ffffff;
+    border: none;
+    padding: 0 20px;
+}
+
+.search-bar button {
+    position: absolute;
+    bottom: 25%;
+    left: 95%;
+    border: none;
+    background-color: transparent;
+}

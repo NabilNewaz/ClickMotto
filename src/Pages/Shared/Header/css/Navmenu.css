@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 96%;
+    padding: 15px;
+}
+
+.nav-menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-link {
+    font-family: "hind";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    text-align: left;
+    color: #818181;
+    text-decoration: none;
+    margin-left: 23px;
+}
+
+.dots-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 23px;
+}
+
+.vertical-line {
+    border-left: 1px solid #818181;
+    height: 30px;
+}
+
+.submit-button {
+    width: 123px;
+    height: 34px;
+    background-color: white;
+    border-color: #818181;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    margin-right: 23px;
+}
+
+.login-button {
+    font-family: "hind";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    text-align: left;
+    color: #818181;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    margin: 0px 23px;
+}
+
+.join-button {
+    font-family: "hind";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    background: #e17800;
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
